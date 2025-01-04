@@ -97,7 +97,7 @@ def play_99():
                 
                 # 當玩家想退出遊戲時
                 if choice == "q":
-                    ask = input("不想繼續玩了嗎？（輸入「y」退出遊戲；不是則輸入「n」：")
+                    ask = input("不想繼續玩了嗎？（輸入「y」退出遊戲；不是則輸入「n」）：")
                     if ask == "y":
                         game_over = True
                     elif ask == "n":
